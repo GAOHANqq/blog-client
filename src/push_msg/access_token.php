@@ -1,7 +1,7 @@
 ﻿<?php
 //access_token
-$appid="wx09239f45494dcaf5";//小程序id
-$secret="3b1af82329ded38b8534bf8f5156f3af";//密钥
+$appid="";//小程序id
+$secret="";//密钥
 $grant_type="client_credential";
 $access_token=curl_get("https://api.weixin.qq.com/cgi-bin/token?appid=$appid&secret=$secret&grant_type=$grant_type");
 echo $access_token;
